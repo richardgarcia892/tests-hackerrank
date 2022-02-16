@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.0070" tests="7" failures="7">
+  <testsuite name="Root Suite" timestamp="2022-02-16T19:38:46" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_pagination_middleware" timestamp="2022-02-16T19:38:46" tests="7" file="/projects/challenge/test/index.spec.js" time="4.0070" failures="7">
+    <testcase name="express_pagination_middleware Should have the context object in the request" time="0.0020" classname="Should have the context object in the request">
+      <failure message="expected { url: &apos;/recipes&apos;, query: {} } to have property &apos;context&apos;" type="AssertionError"><![CDATA[AssertionError: expected { url: '/recipes', query: {} } to have property 'context'
+    at Context.it (test/index.spec.js:24:25)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should have property id, timestamp, path in trace object" time="0.0000" classname="Should have property id, timestamp, path in trace object">
+      <failure message="Cannot read property &apos;should&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'should' of undefined
+    at Context.it (test/index.spec.js:29:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should have the default page, limit and skip property values" time="0.0000" classname="Should have the default page, limit and skip property values">
+      <failure message="Cannot read property &apos;page&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'page' of undefined
+    at Context.it (test/index.spec.js:38:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should set the correct skip value based on page and limit" time="0.0000" classname="Should set the correct skip value based on page and limit">
+      <failure message="Cannot read property &apos;page&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'page' of undefined
+    at Context.it (test/index.spec.js:47:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should have a valid search property in context object" time="0.0000" classname="Should have a valid search property in context object">
+      <failure message="Cannot read property &apos;searchTerm&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'searchTerm' of undefined
+    at Context.it (test/index.spec.js:57:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 1 " time="2.0030" classname="Should respond with the correct data - 1 ">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 2" time="2.0020" classname="Should respond with the correct data - 2">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
